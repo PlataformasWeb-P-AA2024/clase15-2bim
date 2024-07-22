@@ -1,0 +1,26 @@
+/* Estilos globales para la tabla de artículos */
+  width: 100%;
+  .mi-tabla {
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.mi-tabla th, .mi-tabla td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.mi-tabla th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.mi-tabla tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.mi-tabla tr:hover {
+  background-color: #f1f1f1;
+}
